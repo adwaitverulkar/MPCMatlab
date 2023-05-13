@@ -8,7 +8,7 @@ syms X Y psi vx vy r delta F_x d_delta
 % Generate plots
 generate_plots = true;
 generate_video = true;
-save_video = generate_video & false;
+save_video = generate_video & true;
 
 % Generate Desired trajectory using Waypoint Generator:
 wp = [0 0 0; 198.599 -89.868 0;  401.9228 -181.6857 0; 573.4097 -266.6172  0; 698.5358 -353.4334 0];
